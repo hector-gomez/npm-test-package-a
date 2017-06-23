@@ -1,0 +1,22 @@
+{
+  "name": "npm-test-package-a",
+  "version": "1.0.0",
+  "description": "Package that simulates a library with dependencies",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hector-gomez/npm-test-package-a.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hector-gomez/npm-test-package-a/issues"
+  },
+  "homepage": "https://github.com/hector-gomez/npm-test-package-a#readme",
+  "dependencies": {
+    "npm-test-package-b": "github:hector-gomez/npm-test-package-b#semver:1.0.1"
+  }
+}
